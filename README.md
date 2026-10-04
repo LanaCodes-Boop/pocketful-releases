@@ -1,15 +1,38 @@
 # Pocketful
 
 A cozy party board game with small wooden travelers. Keezen is its first game: play it solo against
-bots or online with friends, with a room code.
+bots, or online with friends and a room code.
 
-This repository holds the downloads of the rebuilt Pocketful: Pocketlauncher, the game packages it
-installs, and the room server as it is deployed. The first release is being prepared; the download
-instructions appear here with it.
+## Get the game
 
-## What is here
+1. Download **Pocketlauncher** from the [latest release](https://github.com/LanaCodes-Boop/pocketful-releases/releases/latest):
+   - **Windows:** [`Pocketlauncher-Windows.zip`](https://github.com/LanaCodes-Boop/pocketful-releases/releases/latest/download/Pocketlauncher-Windows.zip)
+   - **macOS:** [`Pocketlauncher-macOS.zip`](https://github.com/LanaCodes-Boop/pocketful-releases/releases/latest/download/Pocketlauncher-macOS.zip)
+2. Unzip it and start Pocketlauncher.
+3. Press **Install**, then **Play**. Every time it starts, the launcher looks for a new version and
+   offers to update. Your settings and saved matches are kept.
+
+The builds are not code-signed yet:
+
+- Windows shows "Windows protected your PC". Choose *More info*, then *Run anyway*.
+- On macOS, right-click Pocketlauncher and choose *Open* the first time.
+
+## Play with friends
+
+In the game choose **Play with friends**, then **Create a room** and share the five-character code,
+or type the code a friend gave you. The room server rests when nobody is playing, so the first
+connection can take up to a minute.
+
+If your connection drops, your seat is kept: start the game again and choose **Rejoin**.
+
+## What is in this repository
 
 | | |
 |---|---|
-| [Releases](../../releases) | Pocketlauncher, the game packages per platform and the signed update manifest |
-| `server/` | The room server as deployed: a Dockerfile and the compiled server pack |
+| [Releases](https://github.com/LanaCodes-Boop/pocketful-releases/releases) | Pocketlauncher, the game packages it installs, and the signed update manifest |
+| `server/` | The room server as it is deployed: a Dockerfile and the compiled server pack |
+
+How updates stay trustworthy: the launcher only accepts an update manifest that carries the
+signature of the Pocketful release key, and it installs only the files that manifest lists, each
+checked against its size and SHA-256. A new version is unpacked next to the old one and switched to
+only when every file is right; the previous version stays on disk so you can go back.
