@@ -29,6 +29,10 @@ While you wait, everyone stands together on the lawn by the tea pavilion. Say he
 buttons in the corner (or the keys Z X C V B N M and comma); they work during the match too. After
 the match everyone lines up for a group photo with the titles they earned, and you can save it.
 
+A match opens with a short scene (any click or key skips it), captures play in slow motion and the
+winning move gets a finale. Prefer a quicker table? Set **Film moments** to Short or Off under
+Settings. The room also keeps the evening's score: crowns by your name for every match you won.
+
 ## What is in this repository
 
 | | |
