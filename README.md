@@ -25,6 +25,10 @@ connection can take up to a minute.
 
 If your connection drops, your seat is kept: start the game again and choose **Rejoin**.
 
+While you wait, everyone stands together on the lawn by the tea pavilion. Say hello with the emote
+buttons in the corner (or the keys Z X C V B N M and comma); they work during the match too. After
+the match everyone lines up for a group photo with the titles they earned, and you can save it.
+
 ## What is in this repository
 
 | | |
