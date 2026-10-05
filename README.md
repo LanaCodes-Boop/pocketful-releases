@@ -1,7 +1,8 @@
 # Pocketful
 
 A cozy party board game with small wooden travelers. Keezen is its first game: play it solo against
-bots, or online with friends and a room code.
+bots, or online with friends and a room code, in the Jade Tea Garden or on the blocks of Blockwood
+Junction.
 
 ## Get the game
 
@@ -25,7 +26,7 @@ connection can take up to a minute.
 
 If your connection drops, your seat is kept: start the game again and choose **Rejoin**.
 
-While you wait, everyone stands together on the lawn by the tea pavilion. Say hello with the emote
+While you wait, everyone stands together on the lawn of the map the host picked. Say hello with the emote
 buttons in the corner (or the keys Z X C V B N M and comma); they work during the match too. After
 the match everyone lines up for a group photo with the titles they earned, and you can save it.
 
