@@ -30,8 +30,18 @@ buttons in the corner (or the keys Z X C V B N M and comma); they work during th
 the match everyone lines up for a group photo with the titles they earned, and you can save it.
 
 A match opens with a short scene (any click or key skips it), captures play in slow motion and the
-winning move gets a finale. Prefer a quicker table? Set **Film moments** to Short or Off under
-Settings. The room also keeps the evening's score: crowns by your name for every match you won.
+winning move gets a finale. A King or an Ace brings a traveler on with an entrance, a Queen travels
+her twelve in style, a Jack makes two travelers jump past each other. Prefer a quicker table? Set
+**Film moments** to Short or Off under Settings. The room also keeps the evening's score: crowns by
+your name for every match you won.
+
+The host of a room chooses the rules: **Classic Keezen**, **Relics**, or **Power-ups**, the party
+rules with bombs, quicksand, piggyback rides, bubbles and thunderclouds (the in-game guide explains
+each). The host can also give every turn a time limit of 10, 15, 30 or 45 seconds; when it runs out,
+the turn is played for you.
+
+**Everyone needs the same version to play together.** Start the game through Pocketlauncher and it
+takes care of that.
 
 ## What is in this repository
 
